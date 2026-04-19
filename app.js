@@ -10,14 +10,14 @@ const rl = readline.createInterface({
 let tasks = loadTasks();
 
 function menu() {
-  console.log('\n========= TASK MANAGER =========');
+  console.log('\n=====TASK MANAGER =========');
   console.log('1. Add Task');
   console.log('2. View Tasks');
   console.log('3. Search Task');
   console.log('4. Update Task Status');
   console.log('5. Delete Task');
   console.log('6. Exit');
-  console.log('================================');
+  console.log('=============================');
 
   rl.question('Enter your choice: ', handleMenu);
 }
