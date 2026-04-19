@@ -9,7 +9,8 @@ CLI Task Manager (Node.js)
 6. Exit
 ================================
 
- Project Structure \n
+ Project Structure
+
 task-manager/
 │
 ├── app.js              # Main CLI application
@@ -17,3 +18,4 @@ task-manager/
 ├── fileHandler.js      # File read/write operations
 ├── utils.js            # Helper functions & validation
 └── tasks.json          # Data storage file
+```
