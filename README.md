@@ -10,10 +10,10 @@ CLI Task Manager (Node.js)
 ================================
 
  Project Structure \n
-task-manager/\n
-│\n
-├── app.js # Main CLI application \n
-├── taskService.js # Task logic (add, delete, update, search) \n
-├── fileHandler.js # File read/write operations \n
-├── utils.js # Helper functions & validation \n
-└── tasks.json # Data storage file \n
+task-manager/
+│
+├── app.js              # Main CLI application
+├── taskService.js      # Task logic (add, delete, update, search)
+├── fileHandler.js      # File read/write operations
+├── utils.js            # Helper functions & validation
+└── tasks.json          # Data storage file
